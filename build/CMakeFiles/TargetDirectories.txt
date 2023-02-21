@@ -1,0 +1,3 @@
+C:/Users/User/ACA/Logger-threadSafe/build/CMakeFiles/Logger-threadSafe.dir
+C:/Users/User/ACA/Logger-threadSafe/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/User/ACA/Logger-threadSafe/build/CMakeFiles/ZERO_CHECK.dir

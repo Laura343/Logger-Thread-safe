@@ -1,0 +1,10 @@
+^C:\USERS\USER\ACA\LOGGER-THREADSAFE\BUILD\CMAKEFILES\E7EAE017B605B970F413DA9481427F09\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/User/ACA/Logger-threadSafe -BC:/Users/User/ACA/Logger-threadSafe/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User/ACA/Logger-threadSafe/build/Logger-threadSafe.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

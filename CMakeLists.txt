@@ -1,0 +1,5 @@
+project(Logger-threadSafe)
+cmake_minimum_required(VERSION 3.25)
+set(CMAKE_CXX_STANDARD 20)
+add_executable(Logger-threadSafe main.cpp)
+target_link_directories(Logger-threadSafe PRIVATE logger.h)
